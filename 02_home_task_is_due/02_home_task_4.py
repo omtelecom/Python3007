@@ -25,3 +25,9 @@ for j in range(n - 1, 1, -1):
     print(((n - j) * " " + "*" + ((j - 2) * 2 + 1) * "*" + "*"))
 
 print(((n - 1) * " " + "*"))
+
+
+# Ступеньки
+for i in range(n):
+    for j in range(2):
+        print('*'*4*i)
